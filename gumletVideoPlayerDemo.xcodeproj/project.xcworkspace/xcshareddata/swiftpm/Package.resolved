@@ -1,0 +1,15 @@
+{
+  "originHash" : "c132b5b5c16b266bc395b6cd461c247baa6db11800fdea1dae6bbeafca45b5d0",
+  "pins" : [
+    {
+      "identity" : "spm-releases",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gumlet/spm-releases",
+      "state" : {
+        "revision" : "8366e949a86162068df9174bee08e1e99ce90564",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
