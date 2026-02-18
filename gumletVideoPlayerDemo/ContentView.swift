@@ -2,9 +2,9 @@ import SwiftUI
 import GumletVideoPlayer
 
 struct ContentView: View {
-    @State private var videoUrlString: String = "https://video.gumlet.io/5f462c1561cf8a766464ffc4/67062bea5d11d5a0fec5d026/main.m3u8"
-    @State private var drmUrlString: String = "https://fairplay.gumlet.com/licence/5f2bdde3e93619b8859d8831/67062bea5d11d5a0fec5d026?expires=1769869427248&token=d696d48059bf01593326f802e748f087d33b1635"
-    @State private var certificateUrlString: String = "https://fairplay.gumlet.com/certificate/5f2bdde3e93619b8859d8831"
+    @State private var videoUrlString: String = "https://www.w3schools.com/html/mov_bbb.mp4"
+    @State private var drmUrlString: String = ""
+    @State private var certificateUrlString: String = ""
     @State private var showControls: Bool = true
     @State private var isPlaying: Bool = false
     @State private var showLogs: Bool = false
